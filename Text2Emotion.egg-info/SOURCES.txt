@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Text2Emotion/__init__.py
+Text2Emotion.egg-info/PKG-INFO
+Text2Emotion.egg-info/SOURCES.txt
+Text2Emotion.egg-info/dependency_links.txt
+Text2Emotion.egg-info/requires.txt
+Text2Emotion.egg-info/top_level.txt
