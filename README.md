@@ -27,7 +27,7 @@ Human being can easily identify the emotions from text and experience it. But wh
 > - Higher the score of a particular emotion category, we can conclude that the message belongs to that category.
 
 ## How to use?
-#### [Check Demo on Colab]()
+#### [Check Demo on Colab](https://bit.ly/3hlXujZ)
 
 ## App Deployment
 Here's the code implementation with **Streamlit App** for the users.
