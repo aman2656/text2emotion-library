@@ -113,7 +113,7 @@ def removing_not(text):
          'not swear': 'Angry', 'not swearing': 'Angry', 'not threaten': 'Happy', 'not threatening': 'Happy',
          'not try': 'Angry', 'not trying': 'Angry', 'not volunteer': 'Angry',
          'not volunteering': 'Angry', 'not wait': 'Angry', 'not waiting': 'Angry', 'not feel': 'Sad',
-         'not feeling': 'Sad'}
+         'not feeling': 'Sad', "not able": "Sad", "not do": "Sad"}
 
     f = re.findall("not\s\w+", text)
     for i in f:
