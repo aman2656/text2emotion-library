@@ -16,7 +16,7 @@ Human being can easily identify the emotions from text and experience it. But wh
 > - Remove the unwanted textual part from the message.
 > - Perform the natural language processing techniques.
 > - Bring out the well pre-processed text from the text pre-processing.
-> ##### 2. Emotion Investigation
+> #### 2. Emotion Investigation
 > Detect emotion from every word that we got from pre-processed text and take a count of it for further analytical process.
 > - Find the appropriate words that express emotions or feelings.
 > - Check the emotion category of each word.
