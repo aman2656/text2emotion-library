@@ -31,7 +31,7 @@ Human being can easily identify the emotions from text and experience it. But wh
 #### [Check Demo on Colab](https://bit.ly/3hlXujZ)
 
 ## App Deployment
-Here's the code implementation with **Streamlit App** for the users.
+Here's the code implementation with  **Streamlit App**  for the users.
 1. Enter the text.
 2. Hit the submit button.
 3. Tada!! Get the output in visual form.
