@@ -35,6 +35,6 @@ Here's the code implementation with  **Streamlit App**  for the users.
 1. Enter the text.
 2. Hit the submit button.
 3. Tada!! Get the output in visual form.
-#### [Check Demo of App](https://pyemotion.herokuapp.com/)
+#### [Check Demo of App](https://text2emotion.herokuapp.com/)
 
 Let's experience the library, test your multiple use cases on web app and check whether the library performs as per your expectations.
