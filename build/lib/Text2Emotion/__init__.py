@@ -624,7 +624,7 @@ def emojis_extractor(text):
  'Fear',
  'Fear',
  'Fear']}
-    a = " ".join(c for c in text if c in emoji.UNICODE_EMOJI).split()
+    a = " ".join(c for c in text if c in emoji.EMOJI_DATA).split()
     for i in a:
         try:
             text = text.replace(i, " " + emoj['Emotion'][emoj["Emoji"].index(i)] + " ")
