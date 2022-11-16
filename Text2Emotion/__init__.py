@@ -663,8 +663,7 @@ def get_emotion(input):
         for i in text:
             try:
                 a = df['Word'].index(i)
-                if a:
-                    emotions[df['Emotion'][a]] += 1
+                emotions[df['Emotion'][a]] += 1
             except:
                 pass
         if sum(emotions.values()) is 0:
