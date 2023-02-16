@@ -5,9 +5,9 @@ import emoji
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('wordnet')
+nltk.download('stopwords', quiet=True))
+nltk.download('punkt', quiet=True))
+nltk.download('wordnet', quiet=True))
 
 
 def removing_shortcuts(text):
@@ -667,7 +667,7 @@ def get_emotion(input):
                     emotions[df['Emotion'][a]] += 1
             except:
                 pass
-        if sum(emotions.values()) is 0:
+        if sum(emotions.values()) == 0:
             return emotions
         for i in emotions:
             emotion_values.append(round((emotions[i] / sum(emotions.values())), 2))
