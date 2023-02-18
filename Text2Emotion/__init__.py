@@ -5,9 +5,9 @@ import emoji
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-nltk.download('stopwords', quiet=True))
-nltk.download('punkt', quiet=True))
-nltk.download('wordnet', quiet=True))
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
+nltk.download('wordnet', quiet=True)
 
 
 def removing_shortcuts(text):
